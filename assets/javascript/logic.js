@@ -5,7 +5,7 @@ $.ajax({
     url: link,
     method: "GET"
 }).then(function(object){
-    $("#summoner").html(object.results[0].name);
+    $("#results").html(object.results[0].name);
 });
 };
 
